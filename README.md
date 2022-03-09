@@ -1,5 +1,4 @@
-# Learn Terraform Modules Create
+Terraform Module:
+Consists of a terraform module which has a vpc and 2 ec2 instances in the public subnet.
 
-Learn what Terraform modules are and when to create them.
-
-This repo is a companion repo to the [Use Modules from the Registry learn tutorial](https://learn.hashicorp.com/tutorials/terraform/module-use?in=terraform/modules), containing Terraform configuration files to provision infrastructure using the `vpc` and `ec2-instances` modules.
+It is then called by the root module main.tf file with input variables from variable.tf file to create this simple little infrastructure.
