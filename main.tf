@@ -42,6 +42,6 @@ module "ec2_instances" {
 
   tags = {
     Terraform   = "true"
-    Environment = "dev"
+    
   }
 }
